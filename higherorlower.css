@@ -13,43 +13,100 @@ body {
 }
 
 h1,h2,h3,h4 { font-family: 'Libre Baskerville', serif; }
-.text-gradient-accent { background: linear-gradient(135deg, var(--film-orange), hsl(35,90%,60%)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.text-gradient-accent { 
+  background: linear-gradient(135deg, var(--film-orange), hsl(35,90%,60%)); 
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
+}
+
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-thumb { background-color: var(--film-orange); border-radius: 3px; }
+
 button:disabled { opacity: 0.5; cursor: not-allowed; }
 
+/* User cards */
 .profile-pic { width: 100px; height: 100px; border-radius: 50%; object-fit: cover; }
+
 .user-card { 
-    flex:1; 
+    flex: 1; 
     min-width: 280px; 
     max-width: 500px; 
     background-color: hsl(220,20%,12%); 
     padding: 1rem; 
     border-radius: 1rem; 
-    display:flex; 
-    flex-direction:column; 
-    align-items:center; 
-    gap:0.5rem; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    gap: 0.5rem; 
+    text-align: center;
 }
 
+/* Favorite movies: desktop layout */
 .favorite-movies { 
-    display:flex; 
-    gap:0.5rem; 
-    margin-top:0.5rem; 
-    flex-wrap:wrap; 
-    justify-content:center; 
+    display: flex; 
+    gap: 0.5rem; 
+    margin-top: 0.5rem; 
+    flex-wrap: wrap; 
+    justify-content: center; 
     width: 100%; 
 }
+
 .favorite-movies img { 
     width: 90px; 
     height: 135px; 
-    border-radius:0.5rem; 
-    object-fit:cover; 
-    cursor:pointer; 
+    border-radius: 0.5rem; 
+    object-fit: cover; 
+    cursor: pointer; 
     transition: transform 0.2s; 
 }
-.favorite-movies img:hover { transform: scale(1.1); }
 
-#users { position: relative; min-height: 350px; display:flex; flex-wrap:wrap; justify-content:center; gap:2rem; } 
-.user-card.slide { position: absolute; top:0; transition: transform 0.7s ease, opacity 0.7s ease; width: 45%; }
+.favorite-movies img:hover { 
+    transform: scale(1.1); 
+}
+
+/* Users container */
+#users { 
+    position: relative; 
+    min-height: 350px; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 2rem; 
+}
+
+.user-card.slide { 
+    position: absolute; 
+    top: 0; 
+    transition: transform 0.7s ease, opacity 0.7s ease; 
+    width: 45%; 
+}
+
+
 footer { margin-top: auto; }
+
+
+@media (max-width: 640px) {
+    .user-card {
+        width: 100%;
+    }
+
+    .favorite-movies {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        gap: 2rem;
+        margin-top: 0.5rem;
+        justify-content: center;
+    }
+
+    .favorite-movies img {
+        width: 100px;
+        height: 150px;
+        border-radius: 0.5rem;
+        object-fit: cover;
+    }
+
+    #users {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+}
