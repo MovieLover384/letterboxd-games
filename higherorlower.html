@@ -101,6 +101,10 @@ let score = 0;
 async function loadData() {
     members = await fetch('members.json').then(res => res.json());
     favorites = await fetch('4fav.json').then(res => res.json());
+
+    // Filter out members without 'this_year' stat
+    members = members.filter(member => member.stats && typeof member.stats.this_year === 'number');
+
     startNewRound();
 }
 
