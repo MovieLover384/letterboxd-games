@@ -1,0 +1,907 @@
+{
+    "total_films_scraped": 100,
+    "films_with_ratings": 100,
+    "films_without_ratings": 0,
+    "data": [
+        {
+            "name": "Interstellar (2014)",
+            "slug": "interstellar",
+            "link": "/film/interstellar/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/1/1/7/6/2/1/117621-interstellar-0-1000-0-1500-crop.jpg?v=7ad89e6666",
+            "rating": "4.4",
+            "rating_value": 4.44,
+            "rating_count": 5236882
+        },
+        {
+            "name": "Parasite (2019)",
+            "slug": "parasite-2019",
+            "link": "/film/parasite-2019/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/4/2/6/4/0/6/426406-parasite-0-1000-0-1500-crop.jpg?v=8f5653f710",
+            "rating": "4.5",
+            "rating_value": 4.53,
+            "rating_count": 5071415
+        },
+        {
+            "name": "Fight Club (1999)",
+            "slug": "fight-club",
+            "link": "/film/fight-club/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/5/1/5/6/8/51568-fight-club-0-1000-0-1500-crop.jpg?v=768b32dfa4",
+            "rating": "4.3",
+            "rating_value": 4.27,
+            "rating_count": 4979042
+        },
+        {
+            "name": "Barbie (2023)",
+            "slug": "barbie",
+            "link": "/film/barbie/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/2/7/7/0/6/4/277064-barbie-0-1000-0-1500-crop.jpg?v=1b83dc7a71",
+            "rating": "3.7",
+            "rating_value": 3.71,
+            "rating_count": 5330890
+        },
+        {
+            "name": "La La Land (2016)",
+            "slug": "la-la-land",
+            "link": "/film/la-la-land/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/2/4/0/3/4/4/240344-la-la-land-0-1000-0-1500-crop.jpg?v=053670ff84",
+            "rating": "4.1",
+            "rating_value": 4.12,
+            "rating_count": 4352893
+        },
+        {
+            "name": "Sinners (2025)",
+            "slug": "sinners-2025",
+            "link": "/film/sinners-2025/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/1/1/1/6/6/0/0/1116600-sinners-2025-0-1000-0-1500-crop.jpg?v=5996b7d555",
+            "rating": "4.1",
+            "rating_value": 4.1,
+            "rating_count": 3723826
+        },
+        {
+            "name": "Whiplash (2014)",
+            "slug": "whiplash-2014",
+            "link": "/film/whiplash-2014/",
+            "poster_url": "https://a.ltrbxd.com/resized/sm/upload/cl/dn/kr/f1/4C9LHDxMsoYI0S3iMPZdm3Oevwo-0-1000-0-1500-crop.jpg?v=d13ea36528",
+            "rating": "4.4",
+            "rating_value": 4.42,
+            "rating_count": 4066393
+        },
+        {
+            "name": "Everything Everywhere All at Once (2022)",
+            "slug": "everything-everywhere-all-at-once",
+            "link": "/film/everything-everywhere-all-at-once/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/4/7/4/4/7/4/474474-everything-everywhere-all-at-once-0-1000-0-1500-crop.jpg?v=281f1a041e",
+            "rating": "4.2",
+            "rating_value": 4.25,
+            "rating_count": 3710567
+        },
+        {
+            "name": "The Truman Show (1998)",
+            "slug": "the-truman-show",
+            "link": "/film/the-truman-show/",
+            "poster_url": "https://a.ltrbxd.com/resized/sm/upload/xx/io/jp/45/the-truman-show-0-1000-0-1500-crop.jpg?v=704ba393f7",
+            "rating": "4.2",
+            "rating_value": 4.22,
+            "rating_count": 4344003
+        },
+        {
+            "name": "Pulp Fiction (1994)",
+            "slug": "pulp-fiction",
+            "link": "/film/pulp-fiction/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/5/1/4/4/4/51444-pulp-fiction-0-1000-0-1500-crop.jpg?v=dee19a8077",
+            "rating": "4.2",
+            "rating_value": 4.24,
+            "rating_count": 3958750
+        },
+        {
+            "name": "Oppenheimer (2023)",
+            "slug": "oppenheimer-2023",
+            "link": "/film/oppenheimer-2023/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/7/8/4/3/2/8/784328-oppenheimer-0-1000-0-1500-crop.jpg?v=e3c6e7a32c",
+            "rating": "4.2",
+            "rating_value": 4.16,
+            "rating_count": 3979037
+        },
+        {
+            "name": "Dead Poets Society (1989)",
+            "slug": "dead-poets-society",
+            "link": "/film/dead-poets-society/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/5/1/8/4/6/51846-dead-poets-society-0-1000-0-1500-crop.jpg?v=9273e8acf7",
+            "rating": "4.3",
+            "rating_value": 4.34,
+            "rating_count": 3290182
+        },
+        {
+            "name": "The Substance (2024)",
+            "slug": "the-substance",
+            "link": "/film/the-substance/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/8/3/8/1/4/0/838140-the-substance-0-1000-0-1500-crop.jpg?v=ab9e1072f8",
+            "rating": "3.7",
+            "rating_value": 3.74,
+            "rating_count": 3310813
+        },
+        {
+            "name": "Eternal Sunshine of the Spotless Mind (2004)",
+            "slug": "eternal-sunshine-of-the-spotless-mind",
+            "link": "/film/eternal-sunshine-of-the-spotless-mind/",
+            "poster_url": "https://a.ltrbxd.com/resized/sm/upload/ay/bp/kl/1y/uBfQ7IGpi0jXSP3GPCzp9Pzm10v-0-1000-0-1500-crop.jpg?v=116621c401",
+            "rating": "4.2",
+            "rating_value": 4.24,
+            "rating_count": 3274627
+        },
+        {
+            "name": "Get Out (2017)",
+            "slug": "get-out-2017",
+            "link": "/film/get-out-2017/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/3/5/3/1/1/7/353117-get-out-0-1000-0-1500-crop.jpg?v=136acec030",
+            "rating": "4.1",
+            "rating_value": 4.14,
+            "rating_count": 4141862
+        },
+        {
+            "name": "Spider-Man: Into the Spider-Verse (2018)",
+            "slug": "spider-man-into-the-spider-verse",
+            "link": "/film/spider-man-into-the-spider-verse/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/2/5/1/9/4/3/251943-spider-man-into-the-spider-verse-0-1000-0-1500-crop.jpg?v=538fe0ada6",
+            "rating": "4.4",
+            "rating_value": 4.4,
+            "rating_count": 4180363
+        },
+        {
+            "name": "Dune (2021)",
+            "slug": "dune-2021",
+            "link": "/film/dune-2021/",
+            "poster_url": "https://a.ltrbxd.com/resized/sm/upload/nx/8b/vs/gc/cDbNAY0KM84cxXhmj8f0dLWza3t-0-1000-0-1500-crop.jpg?v=49eed12751",
+            "rating": "3.9",
+            "rating_value": 3.88,
+            "rating_count": 3796542
+        },
+        {
+            "name": "Joker (2019)",
+            "slug": "joker-2019",
+            "link": "/film/joker-2019/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/4/0/6/7/7/5/406775-joker-0-1000-0-1500-crop.jpg?v=e4ea7f98cc",
+            "rating": "3.8",
+            "rating_value": 3.84,
+            "rating_count": 4363841
+        },
+        {
+            "name": "10 Things I Hate About You (1999)",
+            "slug": "10-things-i-hate-about-you",
+            "link": "/film/10-things-i-hate-about-you/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/4/9/0/4/7/49047-10-things-i-hate-about-you-0-1000-0-1500-crop.jpg?v=55ccac3542",
+            "rating": "4.1",
+            "rating_value": 4.05,
+            "rating_count": 3563166
+        },
+        {
+            "name": "The Dark Knight (2008)",
+            "slug": "the-dark-knight",
+            "link": "/film/the-dark-knight/",
+            "poster_url": "https://a.ltrbxd.com/resized/sm/upload/78/y5/zg/ej/oefdD26aey8GPdx7Rm45PNncJdU-0-1000-0-1500-crop.jpg?v=2d0ce4be25",
+            "rating": "4.5",
+            "rating_value": 4.49,
+            "rating_count": 4046140
+        },
+        {
+            "name": "Midsommar (2019)",
+            "slug": "midsommar",
+            "link": "/film/midsommar/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/4/5/9/5/6/4/459564-midsommar-0-1000-0-1500-crop.jpg?v=ed7b8ded1f",
+            "rating": "3.8",
+            "rating_value": 3.75,
+            "rating_count": 3539187
+        },
+        {
+            "name": "Inception (2010)",
+            "slug": "inception",
+            "link": "/film/inception/",
+            "poster_url": "https://a.ltrbxd.com/resized/sm/upload/sv/95/s9/4j/inception-0-1000-0-1500-crop.jpg?v=30d7224316",
+            "rating": "4.2",
+            "rating_value": 4.23,
+            "rating_count": 3750310
+        },
+        {
+            "name": "Knives Out (2019)",
+            "slug": "knives-out-2019",
+            "link": "/film/knives-out-2019/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/4/7/5/3/7/0/475370-knives-out-0-1000-0-1500-crop.jpg?v=7da76d742c",
+            "rating": "4.0",
+            "rating_value": 3.96,
+            "rating_count": 3859962
+        },
+        {
+            "name": "The Batman (2022)",
+            "slug": "the-batman",
+            "link": "/film/the-batman/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/3/4/8/9/1/4/348914-the-batman-0-1000-0-1500-crop.jpg?v=ec12a8b7ce",
+            "rating": "4.0",
+            "rating_value": 4.02,
+            "rating_count": 3728657
+        },
+        {
+            "name": "American Psycho (2000)",
+            "slug": "american-psycho",
+            "link": "/film/american-psycho/",
+            "poster_url": "https://a.ltrbxd.com/resized/sm/upload/5b/u9/av/il/ecoY7zJL6Ub3URP1oPhPfGflEjV-0-1000-0-1500-crop.jpg?v=8126850315",
+            "rating": "3.8",
+            "rating_value": 3.78,
+            "rating_count": 3545052
+        },
+        {
+            "name": "The Wolf of Wall Street (2013)",
+            "slug": "the-wolf-of-wall-street",
+            "link": "/film/the-wolf-of-wall-street/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/8/6/1/1/4/86114-the-wolf-of-wall-street-0-1000-0-1500-crop.jpg?v=a2b958b6f1",
+            "rating": "4.0",
+            "rating_value": 3.99,
+            "rating_count": 3720392
+        },
+        {
+            "name": "Spirited Away (2001)",
+            "slug": "spirited-away",
+            "link": "/film/spirited-away/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/5/1/9/2/1/51921-spirited-away-0-1000-0-1500-crop.jpg?v=a3ad463c55",
+            "rating": "4.4",
+            "rating_value": 4.44,
+            "rating_count": 3420223
+        },
+        {
+            "name": "Dune: Part Two (2024)",
+            "slug": "dune-part-two",
+            "link": "/film/dune-part-two/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/6/1/7/4/4/3/617443-dune-part-two-0-1000-0-1500-crop.jpg?v=cc533700f8",
+            "rating": "4.4",
+            "rating_value": 4.38,
+            "rating_count": 3077893
+        },
+        {
+            "name": "Superman (2025)",
+            "slug": "superman-2025",
+            "link": "/film/superman-2025/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/9/5/7/0/5/0/957050-superman-2025-0-1000-0-1500-crop.jpg?v=54e41a55ff",
+            "rating": "3.8",
+            "rating_value": 3.84,
+            "rating_count": 2847291
+        },
+        {
+            "name": "Se7en (1995)",
+            "slug": "se7en",
+            "link": "/film/se7en/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/5/1/3/4/5/51345-se7en-0-1000-0-1500-crop.jpg?v=76a14ef6b4",
+            "rating": "4.4",
+            "rating_value": 4.37,
+            "rating_count": 3292330
+        },
+        {
+            "name": "Spider-Man: Across the Spider-Verse (2023)",
+            "slug": "spider-man-across-the-spider-verse",
+            "link": "/film/spider-man-across-the-spider-verse/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/4/9/7/6/3/1/497631-spider-man-across-the-spider-verse-0-1000-0-1500-crop.jpg?v=f2acbf1b8a",
+            "rating": "4.4",
+            "rating_value": 4.41,
+            "rating_count": 3368177
+        },
+        {
+            "name": "Forrest Gump (1994)",
+            "slug": "forrest-gump",
+            "link": "/film/forrest-gump/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/2/7/0/4/2704-forrest-gump-0-1000-0-1500-crop.jpg?v=173bc04cf0",
+            "rating": "4.2",
+            "rating_value": 4.17,
+            "rating_count": 3617633
+        },
+        {
+            "name": "Black Swan (2010)",
+            "slug": "black-swan",
+            "link": "/film/black-swan/",
+            "poster_url": "https://a.ltrbxd.com/resized/sm/upload/yt/ae/iz/kj/bIjkE9Og0nulRycj144sCcQcsZ6-0-1000-0-1500-crop.jpg?v=a571e4c644",
+            "rating": "4.2",
+            "rating_value": 4.17,
+            "rating_count": 2896636
+        },
+        {
+            "name": "Good Will Hunting (1997)",
+            "slug": "good-will-hunting",
+            "link": "/film/good-will-hunting/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/5/1/6/2/1/51621-good-will-hunting-0-1000-0-1500-crop.jpg?v=acb4766abd",
+            "rating": "4.4",
+            "rating_value": 4.37,
+            "rating_count": 2974557
+        },
+        {
+            "name": "The Grand Budapest Hotel (2014)",
+            "slug": "the-grand-budapest-hotel",
+            "link": "/film/the-grand-budapest-hotel/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/9/5/1/1/3/95113-the-grand-budapest-hotel-0-1000-0-1500-crop.jpg?v=6ac71cf4ba",
+            "rating": "4.2",
+            "rating_value": 4.24,
+            "rating_count": 2902148
+        },
+        {
+            "name": "Inglourious Basterds (2009)",
+            "slug": "inglourious-basterds",
+            "link": "/film/inglourious-basterds/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/4/1/3/5/2/41352-inglourious-basterds-0-1000-0-1500-crop.jpg?v=0c74c673e0",
+            "rating": "4.4",
+            "rating_value": 4.36,
+            "rating_count": 3335391
+        },
+        {
+            "name": "Challengers (2024)",
+            "slug": "challengers",
+            "link": "/film/challengers/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/8/4/2/3/0/1/842301-challengers-0-1000-0-1500-crop.jpg?v=a7cd63cbef",
+            "rating": "3.8",
+            "rating_value": 3.83,
+            "rating_count": 2658533
+        },
+        {
+            "name": "Kill Bill: Vol. 1 (2003)",
+            "slug": "kill-bill-vol-1",
+            "link": "/film/kill-bill-vol-1/",
+            "poster_url": "https://a.ltrbxd.com/resized/sm/upload/sw/w2/ep/v4/9O50TVszkz0dcP5g6Ej33UhR7vw-0-1000-0-1500-crop.jpg?v=5a65f5202f",
+            "rating": "4.2",
+            "rating_value": 4.21,
+            "rating_count": 2937600
+        },
+        {
+            "name": "The Shining (1980)",
+            "slug": "the-shining",
+            "link": "/film/the-shining/",
+            "poster_url": "https://a.ltrbxd.com/resized/sm/upload/7s/m2/bw/d0/caoYMcjUamGoBVy65i1AHJBvdzw-0-1000-0-1500-crop.jpg?v=88d9d6cce4",
+            "rating": "4.2",
+            "rating_value": 4.22,
+            "rating_count": 2984384
+        },
+        {
+            "name": "Saltburn (2023)",
+            "slug": "saltburn",
+            "link": "/film/saltburn/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/8/3/5/7/7/4/835774-saltburn-0-1000-0-1500-crop.jpg?v=b58cbd3b08",
+            "rating": "3.4",
+            "rating_value": 3.37,
+            "rating_count": 2972796
+        },
+        {
+            "name": "The Perks of Being a Wallflower (2012)",
+            "slug": "the-perks-of-being-a-wallflower",
+            "link": "/film/the-perks-of-being-a-wallflower/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/7/1/3/3/8/71338-the-perks-of-being-a-wallflower-0-1000-0-1500-crop.jpg?v=f2235860f7",
+            "rating": "4.0",
+            "rating_value": 4.01,
+            "rating_count": 2899381
+        },
+        {
+            "name": "Nosferatu (2024)",
+            "slug": "nosferatu-2024",
+            "link": "/film/nosferatu-2024/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/3/5/9/5/0/5/359505-nosferatu-2024-0-1000-0-1500-crop.jpg?v=a12d4ad648",
+            "rating": "3.7",
+            "rating_value": 3.67,
+            "rating_count": 2490058
+        },
+        {
+            "name": "Lady Bird (2017)",
+            "slug": "lady-bird",
+            "link": "/film/lady-bird/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/3/2/6/2/7/9/326279-lady-bird-0-1000-0-1500-crop.jpg?v=754ff28eb4",
+            "rating": "3.8",
+            "rating_value": 3.83,
+            "rating_count": 2848875
+        },
+        {
+            "name": "The Silence of the Lambs (1991)",
+            "slug": "the-silence-of-the-lambs",
+            "link": "/film/the-silence-of-the-lambs/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/5/1/7/8/2/51782-the-silence-of-the-lambs-0-1000-0-1500-crop.jpg?v=18d88bdff4",
+            "rating": "4.3",
+            "rating_value": 4.34,
+            "rating_count": 2830011
+        },
+        {
+            "name": "(500) Days of Summer (2009)",
+            "slug": "500-days-of-summer",
+            "link": "/film/500-days-of-summer/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/3/9/3/5/0/39350--500-days-of-summer-0-1000-0-1500-crop.jpg?v=05995ae0b3",
+            "rating": "3.7",
+            "rating_value": 3.66,
+            "rating_count": 2826775
+        },
+        {
+            "name": "Poor Things (2023)",
+            "slug": "poor-things-2023",
+            "link": "/film/poor-things-2023/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/7/1/0/3/5/2/710352-poor-things-0-1000-0-1500-crop.jpg?v=a0f2ee9a0e",
+            "rating": "3.9",
+            "rating_value": 3.94,
+            "rating_count": 2460638
+        },
+        {
+            "name": "Call Me by Your Name (2017)",
+            "slug": "call-me-by-your-name",
+            "link": "/film/call-me-by-your-name/",
+            "poster_url": "https://a.ltrbxd.com/resized/sm/upload/g9/9t/cc/7u/tcNniniS4rfqrLH0oORikJfnIwY-0-1000-0-1500-crop.jpg?v=f0c073f2b4",
+            "rating": "3.9",
+            "rating_value": 3.85,
+            "rating_count": 2799843
+        },
+        {
+            "name": "Weapons (2025)",
+            "slug": "weapons-2025",
+            "link": "/film/weapons-2025/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/9/7/2/1/0/9/972109-weapons-2025-0-1000-0-1500-crop.jpg?v=8100270337",
+            "rating": "3.6",
+            "rating_value": 3.62,
+            "rating_count": 2588904
+        },
+        {
+            "name": "Little Women (2019)",
+            "slug": "little-women-2019",
+            "link": "/film/little-women-2019/",
+            "poster_url": "https://a.ltrbxd.com/resized/sm/upload/r4/np/q5/te/mSmiB8XjUnR1GSIljuCPGsk0cwX-0-1000-0-1500-crop.jpg?v=b3f603929c",
+            "rating": "4.2",
+            "rating_value": 4.18,
+            "rating_count": 2650480
+        },
+        {
+            "name": "Shutter Island (2010)",
+            "slug": "shutter-island",
+            "link": "/film/shutter-island/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/4/5/4/0/9/45409-shutter-island-0-1000-0-1500-crop.jpg?v=85dd4c38e3",
+            "rating": "4.2",
+            "rating_value": 4.18,
+            "rating_count": 3123508
+        },
+        {
+            "name": "Gone Girl (2014)",
+            "slug": "gone-girl",
+            "link": "/film/gone-girl/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/1/4/9/8/5/7/149857-gone-girl-0-1000-0-1500-crop.jpg?v=dfe3c8018b",
+            "rating": "4.1",
+            "rating_value": 4.07,
+            "rating_count": 2917725
+        },
+        {
+            "name": "The Godfather (1972)",
+            "slug": "the-godfather",
+            "link": "/film/the-godfather/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/5/1/8/1/8/51818-the-godfather-0-1000-0-1500-crop.jpg?v=bca8b67402",
+            "rating": "4.5",
+            "rating_value": 4.52,
+            "rating_count": 2499476
+        },
+        {
+            "name": "The Menu (2022)",
+            "slug": "the-menu-2022",
+            "link": "/film/the-menu-2022/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/5/2/1/3/2/3/521323-the-menu-0-1000-0-1500-crop.jpg?v=d00a0d03a8",
+            "rating": "3.5",
+            "rating_value": 3.52,
+            "rating_count": 2929533
+        },
+        {
+            "name": "Wicked (2024)",
+            "slug": "wicked-2024",
+            "link": "/film/wicked-2024/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/3/3/7/0/3/6/337036-wicked-2024-0-1000-0-1500-crop.jpg?v=c519c37ff7",
+            "rating": "3.8",
+            "rating_value": 3.79,
+            "rating_count": 2577807
+        },
+        {
+            "name": "Once Upon a Time... in Hollywood (2019)",
+            "slug": "once-upon-a-time-in-hollywood",
+            "link": "/film/once-upon-a-time-in-hollywood/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/3/9/7/8/5/9/397859-once-upon-a-time-in-hollywood-0-1000-0-1500-crop.jpg?v=f3e8612854",
+            "rating": "3.8",
+            "rating_value": 3.77,
+            "rating_count": 2934666
+        },
+        {
+            "name": "Fantastic Mr. Fox (2009)",
+            "slug": "fantastic-mr-fox",
+            "link": "/film/fantastic-mr-fox/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/4/6/3/4/4/46344-fantastic-mr-fox-0-1000-0-1500-crop.jpg?v=3a2a858065",
+            "rating": "4.3",
+            "rating_value": 4.3,
+            "rating_count": 2572524
+        },
+        {
+            "name": "Ratatouille (2007)",
+            "slug": "ratatouille",
+            "link": "/film/ratatouille/",
+            "poster_url": "https://a.ltrbxd.com/resized/sm/upload/n8/rl/pc/se/jEiEU8viSb8CIIHcfprVr2V6XDz-0-1000-0-1500-crop.jpg?v=25e13045f0",
+            "rating": "4.2",
+            "rating_value": 4.23,
+            "rating_count": 3382851
+        },
+        {
+            "name": "Anora (2024)",
+            "slug": "anora",
+            "link": "/film/anora/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/9/5/9/5/4/0/959540-anora-0-1000-0-1500-crop.jpg?v=6f92877033",
+            "rating": "3.8",
+            "rating_value": 3.8,
+            "rating_count": 2325063
+        },
+        {
+            "name": "Spider-Man: No Way Home (2021)",
+            "slug": "spider-man-no-way-home",
+            "link": "/film/spider-man-no-way-home/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/5/6/0/7/8/7/560787-spider-man-no-way-home-0-1000-0-1500-crop.jpg?v=a336d4f40c",
+            "rating": "3.8",
+            "rating_value": 3.83,
+            "rating_count": 3289145
+        },
+        {
+            "name": "Marty Supreme (2025)",
+            "slug": "marty-supreme",
+            "link": "/film/marty-supreme/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/1/1/9/7/4/9/9/1197499-marty-supreme-0-1000-0-1500-crop.jpg?v=b14a26bb43",
+            "rating": "4.2",
+            "rating_value": 4.15,
+            "rating_count": 2030579
+        },
+        {
+            "name": "Frankenstein (2025)",
+            "slug": "frankenstein-2025",
+            "link": "/film/frankenstein-2025/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/9/5/8/1/0/0/958100-frankenstein-2025-0-1000-0-1500-crop.jpg?v=49a1ca2305",
+            "rating": "3.8",
+            "rating_value": 3.84,
+            "rating_count": 2264814
+        },
+        {
+            "name": "Django Unchained (2012)",
+            "slug": "django-unchained",
+            "link": "/film/django-unchained/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/5/2/5/1/6/52516-django-unchained-0-1000-0-1500-crop.jpg?v=f02aed63a3",
+            "rating": "4.3",
+            "rating_value": 4.33,
+            "rating_count": 3018160
+        },
+        {
+            "name": "One Battle After Another (2025)",
+            "slug": "one-battle-after-another",
+            "link": "/film/one-battle-after-another/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/9/5/1/2/7/7/951277-one-battle-after-another-0-1000-0-1500-crop.jpg?v=d27c4cc662",
+            "rating": "4.2",
+            "rating_value": 4.19,
+            "rating_count": 2213929
+        },
+        {
+            "name": "Avengers: Infinity War (2018)",
+            "slug": "avengers-infinity-war",
+            "link": "/film/avengers-infinity-war/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/2/2/6/6/6/1/226661-avengers-infinity-war-0-1000-0-1500-crop.jpg?v=8b35f60c0c",
+            "rating": "4.0",
+            "rating_value": 4.03,
+            "rating_count": 3308316
+        },
+        {
+            "name": "Avengers: Endgame (2019)",
+            "slug": "avengers-endgame",
+            "link": "/film/avengers-endgame/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/2/2/6/6/6/0/226660-avengers-endgame-0-1000-0-1500-crop.jpg?v=d4006bfd5e",
+            "rating": "4.0",
+            "rating_value": 3.95,
+            "rating_count": 3263246
+        },
+        {
+            "name": "The Shawshank Redemption (1994)",
+            "slug": "the-shawshank-redemption",
+            "link": "/film/the-shawshank-redemption/",
+            "poster_url": "https://a.ltrbxd.com/resized/sm/upload/7l/hn/46/uz/zGINvGjdlO6TJRu9wESQvWlOKVT-0-1000-0-1500-crop.jpg?v=8736d1c395",
+            "rating": "4.6",
+            "rating_value": 4.58,
+            "rating_count": 2585826
+        },
+        {
+            "name": "The Lord of the Rings: The Fellowship of the Ring (2001)",
+            "slug": "the-lord-of-the-rings-the-fellowship-of-the-ring",
+            "link": "/film/the-lord-of-the-rings-the-fellowship-of-the-ring/",
+            "poster_url": "https://a.ltrbxd.com/resized/sm/upload/3t/vq/0u/m6/1tX9ZlgVvWjAQhMs1vAfsYpi7VK-0-1000-0-1500-crop.jpg?v=30bbb824e1",
+            "rating": "4.4",
+            "rating_value": 4.39,
+            "rating_count": 2716961
+        },
+        {
+            "name": "Mean Girls (2004)",
+            "slug": "mean-girls",
+            "link": "/film/mean-girls/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/4/6/0/4/9/46049-mean-girls-0-1000-0-1500-crop.jpg?v=e6378abb7b",
+            "rating": "3.8",
+            "rating_value": 3.82,
+            "rating_count": 2910747
+        },
+        {
+            "name": "The Matrix (1999)",
+            "slug": "the-matrix",
+            "link": "/film/the-matrix/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/5/1/5/1/8/51518-the-matrix-0-1000-0-1500-crop.jpg?v=fc7c366afe",
+            "rating": "4.2",
+            "rating_value": 4.18,
+            "rating_count": 2634408
+        },
+        {
+            "name": "Baby Driver (2017)",
+            "slug": "baby-driver",
+            "link": "/film/baby-driver/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/2/6/8/9/5/0/268950-baby-driver-0-1000-0-1500-crop.jpg?v=61304ddfc8",
+            "rating": "3.7",
+            "rating_value": 3.7,
+            "rating_count": 2862924
+        },
+        {
+            "name": "Taxi Driver (1976)",
+            "slug": "taxi-driver",
+            "link": "/film/taxi-driver/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/5/1/9/4/7/51947-taxi-driver-0-1000-0-1500-crop.jpg?v=3ae07cca2d",
+            "rating": "4.1",
+            "rating_value": 4.11,
+            "rating_count": 2214975
+        },
+        {
+            "name": "Coraline (2009)",
+            "slug": "coraline",
+            "link": "/film/coraline/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/4/2/7/7/9/42779-coraline-0-1000-0-1500-crop.jpg?v=b792483e2a",
+            "rating": "4.2",
+            "rating_value": 4.19,
+            "rating_count": 2613820
+        },
+        {
+            "name": "Titanic (1997)",
+            "slug": "titanic-1997",
+            "link": "/film/titanic-1997/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/5/1/5/2/4/51524-titanic-0-1000-0-1500-crop.jpg?v=7517ea94ce",
+            "rating": "3.8",
+            "rating_value": 3.83,
+            "rating_count": 2931059
+        },
+        {
+            "name": "Hereditary (2018)",
+            "slug": "hereditary",
+            "link": "/film/hereditary/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/4/2/4/3/4/8/424348-hereditary-0-1000-0-1500-crop.jpg?v=470e48b681",
+            "rating": "3.9",
+            "rating_value": 3.93,
+            "rating_count": 2514432
+        },
+        {
+            "name": "Deadpool & Wolverine (2024)",
+            "slug": "deadpool-wolverine",
+            "link": "/film/deadpool-wolverine/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/4/6/2/8/7/0/462870-deadpool-wolverine-0-1000-0-1500-crop.jpg?v=1aa778d2c6",
+            "rating": "3.4",
+            "rating_value": 3.44,
+            "rating_count": 2565988
+        },
+        {
+            "name": "Mickey 17 (2025)",
+            "slug": "mickey-17",
+            "link": "/film/mickey-17/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/6/2/0/2/8/1/620281-mickey-17-0-1000-0-1500-crop.jpg?v=93e4d2af6d",
+            "rating": "3.6",
+            "rating_value": 3.56,
+            "rating_count": 2063018
+        },
+        {
+            "name": "Donnie Darko (2001)",
+            "slug": "donnie-darko",
+            "link": "/film/donnie-darko/",
+            "poster_url": "https://a.ltrbxd.com/resized/sm/upload/ye/jq/f3/22/nmb4QhCRmdfNP6rgb81yUFgI83l-0-1000-0-1500-crop.jpg?v=caa3999c6f",
+            "rating": "4.0",
+            "rating_value": 3.97,
+            "rating_count": 2157370
+        },
+        {
+            "name": "The Devil Wears Prada (2006)",
+            "slug": "the-devil-wears-prada",
+            "link": "/film/the-devil-wears-prada/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/5/1/7/1/2/51712-the-devil-wears-prada-0-1000-0-1500-crop.jpg?v=65a9cdb330",
+            "rating": "3.8",
+            "rating_value": 3.83,
+            "rating_count": 2554190
+        },
+        {
+            "name": "Scott Pilgrim vs. the World (2010)",
+            "slug": "scott-pilgrim-vs-the-world",
+            "link": "/film/scott-pilgrim-vs-the-world/",
+            "poster_url": "https://a.ltrbxd.com/resized/sm/upload/vs/75/02/fx/2B5zjs5E3xerqAyowpw3QcOCyLq-0-1000-0-1500-crop.jpg?v=3aef2095df",
+            "rating": "3.9",
+            "rating_value": 3.88,
+            "rating_count": 2392855
+        },
+        {
+            "name": "The Hunger Games (2012)",
+            "slug": "the-hunger-games",
+            "link": "/film/the-hunger-games/",
+            "poster_url": "https://a.ltrbxd.com/resized/sm/upload/x3/tw/wu/z4/vAkjFEm76Lu5hSevquxPgQ91OtI-0-1000-0-1500-crop.jpg?v=f4bfaf16df",
+            "rating": "3.8",
+            "rating_value": 3.79,
+            "rating_count": 2835060
+        },
+        {
+            "name": "Little Miss Sunshine (2006)",
+            "slug": "little-miss-sunshine",
+            "link": "/film/little-miss-sunshine/",
+            "poster_url": "https://a.ltrbxd.com/resized/sm/upload/h6/xm/om/q7/dOeM4R55TsAFBXCPNIDDMiJkePr-0-1000-0-1500-crop.jpg?v=09383296c6",
+            "rating": "4.2",
+            "rating_value": 4.21,
+            "rating_count": 2062273
+        },
+        {
+            "name": "Glass Onion (2022)",
+            "slug": "glass-onion",
+            "link": "/film/glass-onion/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/5/8/6/7/2/3/586723-glass-onion-0-1000-0-1500-crop.jpg?v=9c6cce161b",
+            "rating": "3.4",
+            "rating_value": 3.38,
+            "rating_count": 2722796
+        },
+        {
+            "name": "The Social Network (2010)",
+            "slug": "the-social-network",
+            "link": "/film/the-social-network/",
+            "poster_url": "https://a.ltrbxd.com/resized/sm/upload/nw/cm/pa/ai/sGQv3ZMZBDBnl3z42Q0mEQ5uiDe-0-1000-0-1500-crop.jpg?v=54ee59f7cd",
+            "rating": "3.9",
+            "rating_value": 3.93,
+            "rating_count": 2526594
+        },
+        {
+            "name": "Harry Potter and the Prisoner of Azkaban (2004)",
+            "slug": "harry-potter-and-the-prisoner-of-azkaban",
+            "link": "/film/harry-potter-and-the-prisoner-of-azkaban/",
+            "poster_url": "https://a.ltrbxd.com/resized/sm/upload/a3/0q/kf/h8/jUFjMoLh8T2CWzHUSjKCojI5SHu-0-1000-0-1500-crop.jpg?v=6285ee260e",
+            "rating": "4.1",
+            "rating_value": 4.14,
+            "rating_count": 2757777
+        },
+        {
+            "name": "Inside Out 2 (2024)",
+            "slug": "inside-out-2-2024",
+            "link": "/film/inside-out-2-2024/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/9/2/1/5/7/8/921578-inside-out-2-0-1000-0-1500-crop.jpg?v=efa25e5cca",
+            "rating": "3.5",
+            "rating_value": 3.55,
+            "rating_count": 2525732
+        },
+        {
+            "name": "The Notebook (2004)",
+            "slug": "the-notebook",
+            "link": "/film/the-notebook/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/4/5/6/6/7/45667-the-notebook-0-1000-0-1500-crop.jpg?v=d867e84f30",
+            "rating": "3.9",
+            "rating_value": 3.86,
+            "rating_count": 2311686
+        },
+        {
+            "name": "Her (2013)",
+            "slug": "her",
+            "link": "/film/her/",
+            "poster_url": "https://a.ltrbxd.com/resized/sm/upload/au/nb/i6/lq/fsoTLnUXEUTNuVCBxAJMY0HPPd-0-1000-0-1500-crop.jpg?v=16789732be",
+            "rating": "4.0",
+            "rating_value": 3.97,
+            "rating_count": 2096852
+        },
+        {
+            "name": "Harry Potter and the Philosopher's Stone (2001)",
+            "slug": "harry-potter-and-the-philosophers-stone",
+            "link": "/film/harry-potter-and-the-philosophers-stone/",
+            "poster_url": "https://a.ltrbxd.com/resized/sm/upload/5t/cj/6w/6e/harrypotter2-0-1000-0-1500-crop.jpg?v=0053b4ed93",
+            "rating": "3.8",
+            "rating_value": 3.82,
+            "rating_count": 2742411
+        },
+        {
+            "name": "Inside Out (2015)",
+            "slug": "inside-out-2015",
+            "link": "/film/inside-out-2015/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/1/1/3/2/8/4/113284-inside-out-0-1000-0-1500-crop.jpg?v=de03b9b6ef",
+            "rating": "3.8",
+            "rating_value": 3.83,
+            "rating_count": 2985840
+        },
+        {
+            "name": "Coco (2017)",
+            "slug": "coco-2017",
+            "link": "/film/coco-2017/",
+            "poster_url": "https://a.ltrbxd.com/resized/sm/upload/3p/mh/wq/v9/6Ryitt95xrO8KXuqRGm1fUuNwqF-0-1000-0-1500-crop.jpg?v=2a90bd6512",
+            "rating": "4.1",
+            "rating_value": 4.13,
+            "rating_count": 2788957
+        },
+        {
+            "name": "Back to the Future (1985)",
+            "slug": "back-to-the-future",
+            "link": "/film/back-to-the-future/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/5/1/9/4/5/51945-back-to-the-future-0-1000-0-1500-crop.jpg?v=b818c8ce28",
+            "rating": "4.2",
+            "rating_value": 4.21,
+            "rating_count": 2529565
+        },
+        {
+            "name": "Howl's Moving Castle (2004)",
+            "slug": "howls-moving-castle",
+            "link": "/film/howls-moving-castle/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/4/9/0/6/2/49062-howl-s-moving-castle-0-1000-0-1500-crop.jpg?v=fde81bda52",
+            "rating": "4.4",
+            "rating_value": 4.36,
+            "rating_count": 2308861
+        },
+        {
+            "name": "Arrival (2016)",
+            "slug": "arrival-2016",
+            "link": "/film/arrival-2016/",
+            "poster_url": "https://a.ltrbxd.com/resized/sm/upload/3u/dy/qd/qd/4Iu5f2nv7huqvuYkmZvSPOtbFjs-0-1000-0-1500-crop.jpg?v=0fc28fdf2c",
+            "rating": "4.1",
+            "rating_value": 4.14,
+            "rating_count": 2340824
+        },
+        {
+            "name": "Avatar (2009)",
+            "slug": "avatar",
+            "link": "/film/avatar/",
+            "poster_url": "https://a.ltrbxd.com/resized/sm/upload/1p/mh/li/l2/b7nR3eKeTOwHPKmDLUWunIGasKo-0-1000-0-1500-crop.jpg?v=0bb5ec98ec",
+            "rating": "3.7",
+            "rating_value": 3.73,
+            "rating_count": 2783111
+        },
+        {
+            "name": "Pride & Prejudice (2005)",
+            "slug": "pride-prejudice",
+            "link": "/film/pride-prejudice/",
+            "poster_url": "https://a.ltrbxd.com/resized/sm/upload/nq/jo/26/tn/dAC0hkYmz5ZOCHURZCyj9isPMPd-0-1000-0-1500-crop.jpg?v=b3dac3ffd7",
+            "rating": "4.1",
+            "rating_value": 4.14,
+            "rating_count": 1959748
+        },
+        {
+            "name": "Guardians of the Galaxy (2014)",
+            "slug": "guardians-of-the-galaxy",
+            "link": "/film/guardians-of-the-galaxy/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/9/3/6/7/6/93676-guardians-of-the-galaxy-0-1000-0-1500-crop.jpg?v=3cc8cb967f",
+            "rating": "3.8",
+            "rating_value": 3.82,
+            "rating_count": 2812906
+        },
+        {
+            "name": "Pearl (2022)",
+            "slug": "pearl-2022",
+            "link": "/film/pearl-2022/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/8/5/3/8/2/2/853822-pearl-0-1000-0-1500-crop.jpg?v=471dfc4a24",
+            "rating": "3.7",
+            "rating_value": 3.7,
+            "rating_count": 1902296
+        },
+        {
+            "name": "Wake Up Dead Man (2025)",
+            "slug": "wake-up-dead-man",
+            "link": "/film/wake-up-dead-man/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/7/2/9/1/1/3/729113-wake-up-dead-man-0-1000-0-1500-crop.jpg?v=85f3366617",
+            "rating": "3.8",
+            "rating_value": 3.78,
+            "rating_count": 1971936
+        },
+        {
+            "name": "GoodFellas (1990)",
+            "slug": "goodfellas",
+            "link": "/film/goodfellas/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/5/1/3/8/3/51383-goodfellas-0-1000-0-1500-crop.jpg?v=c6c265f228",
+            "rating": "4.5",
+            "rating_value": 4.46,
+            "rating_count": 1999804
+        },
+        {
+            "name": "Past Lives (2023)",
+            "slug": "past-lives",
+            "link": "/film/past-lives/",
+            "poster_url": "https://a.ltrbxd.com/resized/film-poster/5/9/1/0/5/3/591053-past-lives-0-1000-0-1500-crop.jpg?v=c600b7854e",
+            "rating": "4.2",
+            "rating_value": 4.16,
+            "rating_count": 1667593
+        }
+    ]
+}
