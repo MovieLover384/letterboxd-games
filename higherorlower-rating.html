@@ -100,6 +100,7 @@
 
 <script>
 let films = [];
+let remainingFilms = [];
 let leftFilm = null;
 let rightFilm = null;
 let score = 0;
@@ -107,6 +108,7 @@ let score = 0;
 async function loadData() {
     const data = await fetch('film_ratings.json').then(res => res.json());
     films = data.data.filter(f => typeof f.rating_value === "number");
+    remainingFilms = [...films];
     startRound();
 }
 
@@ -117,13 +119,18 @@ function startRound() {
     document.getElementById('lowerBtn').disabled = false;
 
     if (!leftFilm) {
-        leftFilm = films[Math.floor(Math.random() * films.length)];
+        if (remainingFilms.length === 0) return;
+        leftFilm = remainingFilms.splice(Math.floor(Math.random() * remainingFilms.length), 1)[0];
     }
 
-    do {
-        rightFilm = films[Math.floor(Math.random() * films.length)];
-    } while (rightFilm.slug === leftFilm.slug);
+    if (remainingFilms.length === 0) {
+        document.getElementById('result').innerText = `Congratulations! You guessed all movies! 🎉 Final Score: ${score}`;
+        document.getElementById('higherBtn').disabled = true;
+        document.getElementById('lowerBtn').disabled = true;
+        return;
+    }
 
+    rightFilm = remainingFilms.splice(Math.floor(Math.random() * remainingFilms.length), 1)[0];
     displayFilms();
 }
 
@@ -144,9 +151,6 @@ function displayFilms() {
         <p class="text-orange-500 text-lg font-semibold mt-1">⭐ ???</p>
         <p class="text-gray-400 text-sm">${rightFilm.rating_count.toLocaleString()} ratings</p>
     `;
-
-    leftDiv.classList.remove('slide');
-    rightDiv.classList.remove('slide');
 }
 
 function slideRightToLeft() {
@@ -169,12 +173,14 @@ function slideRightToLeft() {
         rightDiv.style.transition = '';
         rightDiv.style.transform = '';
 
-        let newRightFilm;
-        do {
-            newRightFilm = films[Math.floor(Math.random() * films.length)];
-        } while (newRightFilm.slug === leftFilm.slug);
+        if (remainingFilms.length === 0) {
+            document.getElementById('result').innerText = `Congratulations! You guessed all movies! 🎉 Final Score: ${score}`;
+            document.getElementById('higherBtn').disabled = true;
+            document.getElementById('lowerBtn').disabled = true;
+            return;
+        }
 
-        rightFilm = newRightFilm;
+        rightFilm = remainingFilms.splice(Math.floor(Math.random() * remainingFilms.length), 1)[0];
         displayFilms();
 
         document.getElementById('higherBtn').disabled = false;
